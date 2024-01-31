@@ -1,0 +1,274 @@
+body {
+    background: #000;
+}
+
+.menubar {
+    width: 100%;
+    height: 70px;
+    background: midnightblue;
+    border-radius: 5px;
+}
+
+.profile {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.signinper {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.option {
+    font-size: 25px;
+    font-family: Verdana;
+    top: 0;
+    position: relative;
+    float: right;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.option:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.option:active {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.signinp {
+    font-size: 25px;
+    font-family: verdana;
+    position: absolute;
+    color: #fff;
+    left: 110px;
+    top: 0;
+    z-index: 3;
+}
+
+.ma,
+.ma2,
+.ma3 {
+    width: 49%;
+    box-shadow: 0 0 20px lightblue;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    background: #172727;
+    position: relative;
+    top: 25px;
+}
+
+.ma {
+    float: left;
+}
+
+.ma2 {
+    position: relative;
+    right: -6px;
+    float: right;
+}
+
+.ma3 {
+    float: left;
+    top: 60px;
+}
+
+.main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.head {
+    font-family: verdana;
+    font-size: 30px;
+    color: #fff;
+}
+
+.ans {
+    font-family: verdana;
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    width: 94%;
+    color: dodgerblue;
+}
+
+.a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    background: orange;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+/*
+<!-------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+--------For Mobile---------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+------------------------>
+*/
+.menuicon {
+    display: none;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    z-index: 6;
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+    padding-right: 7px;
+    border-radius: 5px;
+    background: dodgerblue;
+    cursor: pointer;
+}
+
+.menuiconcheck {
+    opacity: 0;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    z-index: 7;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .ans {
+        font-size: 20px;
+    }
+
+    .ma,
+    .ma2,
+    .ma3 {
+        width: 95%;
+        padding: 10px;
+        float: none;
+        padding-bottom: 30px;
+    }
+
+    .ma2 {
+        top: 50px;
+        left: 0px;
+    }
+
+    .ma3 {
+        top: 100px;
+    }
+
+    .a {
+        font-size: 22px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    body {
+        margin: 4px;
+    }
+
+    .menubar {
+        position: absolute;
+        width: 60%;
+        border-radius: 3px;
+        transition: 2s;
+        height: 300px;
+        display: none;
+        z-index: 4;
+    }
+
+    .profile {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #fff;
+        position: absolute;
+        left: 70px;
+        top: 10px;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .signinp {
+        font-size: 15px;
+        font-family: verdana;
+        position: absolute;
+        color: #fff;
+        left: 105px;
+        top: 0px;
+        z-index: 3;
+    }
+
+    .option {
+        font-size: 22px;
+        font-family: Verdana;
+        top: 50px;
+        text-align: center;
+        position: relative;
+        color: white;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: none;
+        z-index: 3;
+
+    }
+
+    .menuicon,
+    .menuiconcheck {
+        display: block;
+    }
+
+    .menuiconcheck:checked~.menubar {
+        display: block;
+    }
+
+    .top {
+        width: 150px;
+        height: 150px;
+    }
+
+    .topp {
+        font-size: 29px;
+        position: absolute;
+        left: 47px;
+        top: 20px;
+    }
+}

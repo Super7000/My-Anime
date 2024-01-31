@@ -1,0 +1,173 @@
+.wwy,
+.tgow,
+.fcps,
+.asv,
+.yn,
+.pm,
+.wc,
+.about {
+    width: 45%;
+    box-shadow: 0 0 15px #000;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.wwy,
+.tgow,
+.asv,
+.wc {
+    float: left;
+}
+
+.about,
+.yn,
+.fcps,
+.pm {
+    float: right;
+}
+
+.fcps,
+.asv,
+.tgow {
+    position: relative;
+    top: 30px;
+}
+
+.asv,
+.pm {
+    position: relative;
+    top: 60px
+}
+
+.wc,
+.about {
+    position: relative;
+    top: 90px;
+}
+
+.wwyimg,
+.tgowimg,
+.fcpsimg,
+.asvimg,
+.ynimg,
+.pmimg,
+.wcimg {
+    width: 90%;
+    padding: 5%;
+    border-radius: 40px;
+}
+
+.wwyp,
+.tgowp,
+.fcpsp,
+.asvp,
+.ynp,
+.msp,
+.pmp,
+.wcp {
+    font-size: 22px;
+    position: relative;
+    left: 15%;
+    width: 70%;
+    font-family: Verdana
+}
+
+.wwya,
+.tgowa,
+.fcpsa,
+.asva,
+.yna,
+.pma,
+.wca {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    left: 30px;
+    top: 6px;
+    font-size: 25px;
+}
+
+.head {
+    text-align: center;
+    font-size: 30px
+}
+
+.tgowhead {
+    text-align: center;
+    font-size: 30px;
+}
+
+.themeimg {
+    width: 99%;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.themep {
+    position: absolute;
+    font-size: 100px;
+    left: 17%;
+    top: 5%;
+    color: orange;
+    z-index: 2
+}
+
+.detailscon {
+    padding: 30px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.ans {
+    color: dodgerblue
+}
+
+.adiv1 {
+    position: relative;
+    left: 15%;
+    background: orange;
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+}
+
+.adiv2 {
+    position: relative;
+    left: 15%;
+    top: 10px;
+    background: dodgerblue;
+    height: 40px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.top {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: yellow;
+    z-index: 3;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.top p {
+    position: relative;
+    top: 3px;
+    width: 50px;
+    left: 10px;
+    color: dodgerblue;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.top:hover {
+    box-shadow: 0 0 0 30px gold,
+        0 0 0 60px orange;
+}
